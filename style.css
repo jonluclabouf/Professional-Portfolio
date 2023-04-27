@@ -11,6 +11,12 @@ h1 {
     text-align: center;
 }
 
+/* body {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+} */
+
 .statement {
     text-align: center;
 }
@@ -33,6 +39,11 @@ footer {
     min-width: 200px;
   }
 
-  .me {
+  img {
     max-width: 250px;
+    display: grid;
+  }
+
+  .contacts {
+    text-decoration: none;
   }
