@@ -8,28 +8,30 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+
     <nav class="navbar">
-        <section class="navbar__menu">
-          <p class="home-nav">Home</p>
-          <p class="about-me-nav">About Me</p>
-          <p class="my-projects-nav">My Projects</p>
-          <p class="contact-nav">Contact</p>
-        </section>
+        <p class="about-me-nav"><a href="#about-me">About Me</a></p>
+        <p class="skills-nav"><a href="#skills">Skills</a></p>
+        <p class="my-projects-nav"><a href="#my-projects">My Projects</a></p>
+        <p class="contact-nav"><a href="#contact">Contact Me</a></p>
     </nav>
+
     <div class="container">
         <article>
         <header>
         <h1 class="title">Hello I'm Jon-Luc LaBouf.</h1>
-        <p class="statement">I am currently a student aiming to make a career as a software developer</p>
+        <p class="statement">I am currently a student at We Can Code It aiming to make a career as a software developer.</p>
         </header>
         </article>
     </div>
+
     <div class="picture">
         <article>
             <img class="me" src="photos/JLHeadshotSitting.jpeg" alt="Me!">
         </article>
     </div>
-    <div class="about-me">
+
+    <div class="about-me" id="about-me">
             <h2 class="about-me-title">About Me</h2>
             <p class="about-me-statement">I am currently a student at We Can Code It. My short term goal is to 
                 graduate from there in September and get an entry level job to get my foot in the door in this industry.
@@ -37,20 +39,35 @@
                 but I am aiming for that because I have always been interested in working with finances, and every big bank needs
                 a Software Engineer.</p>
     </div>
-    <div class="projects">
+
+    <div class="skills" id="skills">
+        <h2 class="skills-title">Skills</h2>
+        <p class="skills-statement">A brief list of my skills:</p>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Team Player</li>
+            <li>Customer Service</li>
+        </ul>
+    </div>
+
+    <div class="projects" id="my-projects">
             <h2 class="projects-title">Projects</h2>
             <p class="projects-statement">Here are a few of the projects I have worked on.</p>
             <ul class="list-projects">
-                <li class="night">Night Mode Demo</li>
+                <p class="night">Night Mode Demo</p>
                 <a href="https://github.com/jonluclabouf/Night-Mode.git">
                     <img src="photos/nightmode.jpeg" alt="Night Mode Demo" class="night-mode-picture"></a>
-                <li class="cart">Interactive Grocery List</li>
-                <img src="photos/grocery.jpeg" alt="Interactive Grocery List" class="grocery-list">
-                <li class="survey">Survey Form</li>
-                <img src="photos/survey.jpeg" alt="Survey Form" class="survey-form">
+                <p class="cart">Interactive Grocery List</p>
+                <a href="https://github.com/jonluclabouf/Grocery-List.git">
+                <img src="photos/grocery.jpeg" alt="Interactive Grocery List" class="grocery-list"></a>
+                <p class="survey">Survey Form</p>
+                <a href="https://github.com/jonluclabouf/Survey-Form.git">
+                <img src="photos/survey.jpeg" alt="Survey Form" class="survey-form"></a>
             </ul>
     </div>
-    <div class="contact">
+
+    <div class="contact" id="contact">
         <section>
             <h2 class="contact-title">Contact Me</h2>
             <ul class="contacts">
@@ -61,6 +78,7 @@
             </ul>
         </section>
     </div>
+
     <footer>
         <p>&copy2023 Jon-Luc</p>
     </footer>
